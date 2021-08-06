@@ -1,0 +1,42 @@
+body{
+    background-image: url(./imagens/bg\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7e4c7;
+    width: 300px;
+    padding: 1em;
+    border: 12px solid #95d5b2;
+    border-radius: 1em;
+}
+ul li {
+    list-style:none
+
+}
+
+button{
+    cursor: pointer;
+    background-color: #52b788;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+button:hover{
+    padding: 12px 18px;
+
+}
